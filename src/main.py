@@ -1,4 +1,5 @@
 from port_scanner import run_port_scanner 
+from password_checker import password_checker
 
 def main():
     while True:
@@ -17,6 +18,7 @@ def main():
 
         elif choice == "2":
             print("\nOpening Password Strength Checker...")
+            password_checker()
 
         elif choice == "3":
             print("\nOpening File Hash Generator...")
