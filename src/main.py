@@ -1,6 +1,6 @@
 from port_scanner import run_port_scanner 
 from password_checker import password_checker
-
+from file_hash_generator import file_hash_generator 
 def main():
     while True:
         print("\n=== CyberScan ===")
@@ -22,7 +22,8 @@ def main():
 
         elif choice == "3":
             print("\nOpening File Hash Generator...")
-
+            file_hash_generator()
+            
         elif choice == "4":
             print("\nOpening Network Scanner...")
 
